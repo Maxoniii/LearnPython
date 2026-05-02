@@ -1,0 +1,6 @@
+participants = ["Артемий", "Борис", "Влад", "Гоша", "Дима", "Евгений", "Женя", "Захар"]
+
+
+first_day = [participants[i] for i in range(0, len(participants), 2)]
+
+print(f"Первый день: {first_day}")
